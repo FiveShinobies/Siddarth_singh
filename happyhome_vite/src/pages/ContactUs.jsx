@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import React from "react";
 import logo from "../assets/HH_logo.png";
 import "../styles.css";
 
@@ -17,13 +16,12 @@ export default function ContactUs() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // simple client-side validation
+
     if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
       setStatus({ type: "error", text: "Please fill all required fields." });
       return;
     }
 
-    // simulate submit
     setStatus({ type: "loading", text: "Sending message..." });
     setTimeout(() => {
       setStatus({ type: "success", text: "Thanks! Your message has been received. We'll contact you soon." });

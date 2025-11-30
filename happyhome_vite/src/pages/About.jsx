@@ -6,7 +6,6 @@ export default function About() {
   return (
     <div className="aboutContainer">
 
-      {/* HEADER */}
       <header className="aboutHeader">
         <div className="aboutLogo">
           <img src={logo} alt="Happy Home Logo" className="aboutLogoImg" />
@@ -22,8 +21,6 @@ export default function About() {
 
       <main className="aboutMain">
         <h1 className="aboutTitle">About Happy Home</h1>
-
-        {/* INTRO SECTION */}
         <section className="aboutIntroCard">
           <h2 className="aboutSubtitle">Transforming Home Services With Trust, Technology & Transparency</h2>
 
@@ -41,8 +38,6 @@ export default function About() {
             and trained experts.
           </p>
         </section>
-
-        {/* OUR VISION */}
         <section className="visionSection">
           <h2>Our Vision</h2>
           <p>
@@ -51,7 +46,6 @@ export default function About() {
           </p>
         </section>
 
-        {/* THREE PILLARS */}
         <section className="pillarsSection">
           <h2>The Three Pillars We Stand On</h2>
 
@@ -82,7 +76,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* SERVICES SECTION */}
         <section className="aboutServices">
           <h2>What We Offer</h2>
 
@@ -135,7 +128,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* GLOBAL REACH */}
         <section className="globalSection">
           <h2>Global Presence</h2>
           <p>
@@ -149,8 +141,7 @@ export default function About() {
             <li>India</li>
           </ul>
         </section>
-
-        {/* WHY CHOOSE US */}
+        
         <section className="whySection">
           <h2>Why Choose Happy Home?</h2>
           <ul>

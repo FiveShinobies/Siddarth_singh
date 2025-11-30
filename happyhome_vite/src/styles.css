@@ -571,3 +571,52 @@ button {
     font-size: 28px;
   }
 }
+/* Orders Page */
+.ordersGrid {
+  margin-top: 20px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.orderCard {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(12, 20, 30, 0.06);
+  transition: 0.3s;
+}
+
+.orderCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(12, 20, 30, 0.1);
+}
+
+.orderTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.statusTag {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.statusTag.completed {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.statusTag.in-progress {
+  background: #fff7ed;
+  color: #92400e;
+}
+
+.statusTag.cancelled {
+  background: #fff1f2;
+  color: #991b1b;
+}
