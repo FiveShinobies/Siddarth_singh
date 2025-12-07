@@ -3,6 +3,8 @@ import { Routes, Route, Link } from 'react-router-dom'
 import OrderHistory from "./pages/OrderHistory";
 import ViewOrderDetail from "./pages/ViewOrderDetail";
 import Feedback from "./pages/Feedback";
+import OrderDetails from './pages/OrderDetails';
+import Allorders from './pages/Allorders';
 
 
 export default function App(){
@@ -17,9 +19,12 @@ export default function App(){
 
       <main className="main">
         <Routes>
-  <Route path="/" element={<OrderHistory />} />
+  {/* <Route path="/" element={<OrderHistory />} />
   <Route path="/order/:orderId" element={<ViewOrderDetail />} />
-  <Route path="/feedback/:orderId" element={<Feedback />} />
+  <Route path="/feedback/:orderId" element={<Feedback />} /> */}
+  <Route path="/" element={<Allorders />} />
+  <Route path="/admin/order/:orderId" element={<OrderDetails />} />
+
 </Routes>
       </main>
 

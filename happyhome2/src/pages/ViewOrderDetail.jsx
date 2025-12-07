@@ -37,10 +37,10 @@ export default function ViewOrderDetail() {
         { task: "Kitchen Degreasing", time: "35 mins" }
       ],
       materials: [],
-      serviceCharge: 150,
+      serviceCharge: 1200,
       materialCharge: 0,
-      tax: 12,
-      total: 162,
+      tax: 50,
+      total: 1250,
       paymentStatus: "Paid",
       paymentMethod: "Online",
     }
